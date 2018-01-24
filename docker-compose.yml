@@ -5,8 +5,8 @@ services :
     container_name : ocsinventory-server
     environment :
       OCS_DBNAME : ocsweb
-      OCS_DBSERVER_READ : ocsinventory-db
-      OCS_DBSERVER_WRITE : ocsinventory-db
+      OCS_DBSERVER_READ : db
+      OCS_DBSERVER_WRITE : db
       OCS_DBUSER : ocs
       OCS_DBPASS : ocs
     volumes :
